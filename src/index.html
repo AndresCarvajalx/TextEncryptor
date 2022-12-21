@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Text Encryptor</title>
+</head>
+<body>
+    <header class="header">
+        <img class ="headerImg" src="img/logo.png" alt="Logo images" width="64 rem" height="64 rem" >
+    </header>
+    <main class = "main">
+        <form autocomplete="off">
+                <div class="input">
+                    <textarea name="textarea"  placeholder="Write text to encrypt" id="text-area"></textarea>
+                    <div class="buttons">
+                        <button type="button" class="btn-encrypt" id ="btn-encrypt"><strong>Encriptar</strong></button>
+                        <button type="button" class = "btn-decrypt" id ="btn-decrypt"><strong>Desencriptar</strong></button>
+                    </div>
+                </div>
+        </form>
+
+        <div class="side">
+            <h2>Result</h2>
+            <img src="img/item.png" id="img-item" alt="Muñeco buscando algo" style="display: initial;">
+            <table id="table">
+                <!-- Codigo generado con javascript -->
+            </table>
+        </div>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
